@@ -1,0 +1,37 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude variable files with secrets
+*.tfvars
+*.tfvars.json
+
+# Override files (can include sensitive data)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore backup and lock files
+*.backup
+*.lock.hcl
+
+# AWS credential files
+.aws/
+*.pem
+
+# IDE / editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Python cache or temp files (if using automation)
+__pycache__/
+*.pyc
